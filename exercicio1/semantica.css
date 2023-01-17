@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Noto+Serif+Display:wght@600&display=swap');
+
 body{
     background-color: #2c3e50;
     color: white;
+    font-family: 'Noto Sans Mono', monospace;
+    line-height: 1.5;/* Para espaçamento entre as linhas*/
+    /*text-align: center; (para alinhar texto)*/
 }
 
 h3 {
     border: black 2px solid;
     background-color: yellow;
     color: black;
+    font-weight: bold;
 }
 
 h2{
     color: yellow;
+    font-weight: bold;
 }
 
 .red{
