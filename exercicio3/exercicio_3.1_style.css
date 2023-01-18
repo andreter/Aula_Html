@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+body{
+    background-image: url(images/fundo.png);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+.nome{
+    text-align: center;
+    background-image: url(images/fundo_titulo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: flex;
+    padding-left: 400px;
+    padding-top: 100px;
+    border: 2px red solid;
+    width: 50%;
+    margin-left: 15%;
+    
+
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.galeria div{
+    background-color: rgb(111, 111, 235);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.galeria div img{
+    height: 200px;
+    width: 250px;
+}
+
