@@ -1,0 +1,21 @@
+
+
+.container{
+    border: 3px black dashed;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.box1{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    left: 50px;
+}
+
+.box2{
+    background-color: gray;
+
+}
